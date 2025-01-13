@@ -2218,7 +2218,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!224 &896244763
 RectTransform:
@@ -3040,6 +3040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1231406511}
+  - component: {fileID: 1231406512}
   - component: {fileID: 1231406510}
   - component: {fileID: 1231406509}
   - component: {fileID: 1231406508}
@@ -3111,7 +3112,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &1231406511
 RectTransform:
@@ -3145,6 +3146,84 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1231406512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231406507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6473f58dccec9544bd17894807d68b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - obj: {fileID: 1964418209}
+    startTime: 0
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 16183899}
+    startTime: 5
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 587797947}
+    startTime: 10
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 1889079157}
+    startTime: 15
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 765579198}
+    startTime: 20
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 299024629}
+    startTime: 25
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 1338218803}
+    startTime: 30
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 456233216}
+    startTime: 35
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 954761624}
+    startTime: 40
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 1324484529}
+    startTime: 45
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 994962808}
+    startTime: 50
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 781299048}
+    startTime: 55
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
+  - obj: {fileID: 2046584545}
+    startTime: 20
+    fadeInSpeed: 0.5
+    visibleTime: 3
+    fadeOutSpeed: 0.5
 --- !u!1 &1298309202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,6 +4874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853350841}
+  - component: {fileID: 1853350842}
   - component: {fileID: 1853350840}
   - component: {fileID: 1853350839}
   - component: {fileID: 1853350838}
@@ -4866,7 +4946,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1853350841
 RectTransform:
@@ -4888,6 +4968,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1853350842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853350837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3a4cdfbe04bf847b11aa8ee5c12466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsMenu: {fileID: 896244759}
+  otherObjects:
+  - {fileID: 257030595}
+  - {fileID: 1776941459}
+  - {fileID: 1362008181}
+  - {fileID: 1068839799}
+  - {fileID: 2068034478}
+  - {fileID: 1428012103}
+  optionsButton: {fileID: 1362008183}
 --- !u!1 &1862550141
 GameObject:
   m_ObjectHideFlags: 0
@@ -5343,8 +5444,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5856,6 +5957,6 @@ SceneRoots:
   - {fileID: 669097448}
   - {fileID: 1406451920}
   - {fileID: 1853350841}
-  - {fileID: 1377766766}
   - {fileID: 896244763}
+  - {fileID: 1377766766}
   - {fileID: 1231406511}
